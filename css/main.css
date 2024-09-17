@@ -1,6 +1,7 @@
 /* Place CSS styles here */
 body {
     background-color: #460782;
+    font-family: "Tilt Neon", system-ui;
           display: flex;
           flex-direction: column;
       justify-content: center;
@@ -10,6 +11,14 @@ body {
     
 }
 
+h1,
+h2,
+h3 {
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+    color: #f7ee3f;
+
+}
 
 
 header {
@@ -22,10 +31,10 @@ header {
 
 
 h1 {
-    font-family: "Satisfy", system-ui;
+    
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    
     color:aliceblue;
 
     justify-content: center;
@@ -66,12 +75,11 @@ h1 {
 
 
   h2 {
-    font-size: 30px;
-    font-family: "Satisfy", system-ui;
+    
+    
     font-weight: 400;
     font-style: normal;
-    
-    color:rgb(251, 90, 216);
+
 
     margin: 20px;
     padding: 20px;
@@ -102,10 +110,9 @@ h1 {
 
 
   h3 {
-    font-family: "Satisfy", system-ui;
+    
     font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
+    
     color:rgb(251, 246, 90);
 
    margin: 20px;
